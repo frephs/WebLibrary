@@ -6,8 +6,7 @@ function loadcontrols() {
      <input type="range" name="angle" value  id="angle" min=-20 max=23 onchange="changeAngle(libri.length, this.value)"> <br>
      <label for="size">Size</label>
      <input type="range" name="size" id="size" min=50 max=100 onchange="changeZoom(libri.length, this.value)"> <br>
-     <input type="checkbox" checked name="Titolo" onchange="updatedescription(libri.length, libri)">
-     <label for="Titolo">Titolo e autore </label><br>
+  
      </form>
      </div>`
      document.write(html);
