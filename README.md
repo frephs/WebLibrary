@@ -16,6 +16,6 @@ When a book is loaded they are inserted into anchors that have as `href` a duckd
 "<a href='https://duckduckgo.com/?q=!ducky+goodreads+'+book[i].title+'>"
 ```
 ## Preview 
-![Preview](preview.pgn)
-[Try a preview here](http://htmlpreview.github.io/?) 
+![Preview](https://github.com/frephs/WebLibrary/blob/main/preview.png)
+[Try a preview here](http://htmlpreview.github.io/?https://github.com/frephs/WebLibrary/blob/main/libreria.html) 
 
