@@ -15,8 +15,8 @@ Every book redirects to their goodreads page without any need for their page to 
 
 When a book is loaded they are inserted into anchors that have as `href` a duckduckgo query which paired with the `!ducky` keyword redirects you the goodreads page which more likely to match with your book title.  
 ```
-"<a href='https://duckduckgo.com/?q=!ducky+goodreads+'+book[i].title+'>"
-```
+<a href='https://duckduckgo.com/?q=!ducky+goodreads+'+book[i].title+'>
+```html
 ## Preview 
 [Try a preview here](http://htmlpreview.github.io/?https://github.com/frephs/WebLibrary/blob/main/libreria.html) 
 
