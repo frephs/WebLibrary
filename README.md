@@ -1,5 +1,7 @@
 # WebLibrary
 Html + CSS + Javascript + Jquery based online library 
+![Preview](https://github.com/frephs/WebLibrary/blob/main/preview.png)
+
 ## Features 
 - Books are visualized in 3D, you can change their viewing angle and cover size in the control panel in the top right corner 
 - If you run the webpage as a server, once the page is fully loaded, their left sides gets colored according to their main cover
@@ -16,6 +18,5 @@ When a book is loaded they are inserted into anchors that have as `href` a duckd
 "<a href='https://duckduckgo.com/?q=!ducky+goodreads+'+book[i].title+'>"
 ```
 ## Preview 
-![Preview](https://github.com/frephs/WebLibrary/blob/main/preview.png)
 [Try a preview here](http://htmlpreview.github.io/?https://github.com/frephs/WebLibrary/blob/main/libreria.html) 
 
