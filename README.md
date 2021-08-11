@@ -5,9 +5,9 @@ Html + CSS + Javascript + Jquery based online library
 - If you run the webpage as a server, once the page is fully loaded, their left sides gets colored according to their main cover
 - Clicking on a book redirects you automatically to their goodreads page
 ## Dependencies
-It uses the [ColorThief library](https://lokeshdhakar.com/projects/color-thief/) to get the main covers' colors. If not run as a server the page the requests will be blocked by CORS policy
+This library uses the [ColorThief library](https://lokeshdhakar.com/projects/color-thief/) to get the main covers' colors. If not run as a server the page the requests will be blocked by CORS policy
 ## Usage
-The index page load the controller. Then the books stored in `libri.json` are loaded in chronological order to the page, divided per year.
+The index page loads the controller. Then the books stored in `libri.json` are loaded in chronological order to the page, divided per year.
 ### Goodreads anchors
 Every book redirects to their goodreads page without any need for their page to be linked. 
 
